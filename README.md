@@ -8,17 +8,16 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
+1. Importing numpy as np
+2. Get matrix as input 
+3. Build the formulas to solve the given matrix using gaussian elimination method
 4. 
 
 ## Program:
 ```
-'''Program to solve a matrix using Gaussian elimination without partial pivoting.
+Program to solve a matrix using Gaussian elimination without partial pivoting.
 Developed by: D.Devadhaarini
 RegisterNumber: 212223230040
-'''
 import numpy as np
 n=int(input())
 matrix=np.zeros((n,n+1))
